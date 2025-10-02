@@ -1,55 +1,111 @@
 {
-  "title": "Você seria um heroi ou vilão ?",
+  "title": "Qual é sua casa em Hogwarts?",
   "questions": [
     {
       "id": 1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Qual dessas qualidades você mais valoriza?",
       "options": [
-        { "id": 1, "name": "Raios-Lasers", "alias": "A" },
-        { "id": 2, "name": "Voar", "alias": "B" },
-        { "id": 3, "name": "Explodir coisas", "alias": "A" },
-        { "id": 4, "name": "Curar feridas", "alias": "B" },
-        { "id": 5, "name": "Soltar fogo pelas mãos", "alias": "A" }
+        { "id": 1, "name": "Coragem", "alias": "G" },
+        { "id": 2, "name": "Ambição", "alias": "S" },
+        { "id": 3, "name": "Inteligência", "alias": "C" },
+        { "id": 4, "name": "Lealdade", "alias": "L" }
       ]
     },
     {
       "id": 2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "O que você faria se encontrasse um animal mágico ferido?",
       "options": [
-        { "id": 1, "name": "Crianças", "alias": "A" },
-        { "id": 2, "name": "Idosos", "alias": "A" },
-        { "id": 3, "name": "Não saberia escolher", "alias": "B" }
+        { "id": 1, "name": "Ajudaria sem pensar duas vezes", "alias": "L" },
+        { "id": 2, "name": "Chamaria ajuda imediatamente", "alias": "G" },
+        { "id": 3, "name": "Estudaria a criatura antes de agir", "alias": "C" },
+        { "id": 4, "name": "Veria se isso pode ser útil depois", "alias": "S" }
       ]
     },
     {
       "id": 3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Você prefere trabalhar...",
       "options": [
-        { "id": 1, "name": "Não destruir prédios", "alias": "B" },
-        { "id": 2, "name": "Socar a cara do inimigo", "alias": "A" },
-        { "id": 3, "name": "Não sujar meu traje", "alias": "A" },
-        { "id": 4, "name": "Não deixar ninguém se ferir", "alias": "B" }
+        { "id": 1, "name": "Sozinho, com foco", "alias": "C" },
+        { "id": 2, "name": "Com amigos leais", "alias": "L" },
+        { "id": 3, "name": "Para vencer, não importa como", "alias": "S" },
+        { "id": 4, "name": "Em equipe, superando desafios", "alias": "G" }
       ]
     },
     {
       "id": 4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual dessas matérias você mais gostaria de estudar?",
       "options": [
-        { "id": 1, "name": "Ficar rico com poderes", "alias": "A" },
-        { "id": 2, "name": "Salvar a cidade", "alias": "B" }
+        { "id": 1, "name": "Defesa Contra as Artes das Trevas", "alias": "G" },
+        { "id": 2, "name": "Poções", "alias": "S" },
+        { "id": 3, "name": "Feitiços", "alias": "C" },
+        { "id": 4, "name": "Trato das Criaturas Mágicas", "alias": "L" }
       ]
     },
     {
       "id": 5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Você está preso em um labirinto mágico. O que faz?",
       "options": [
-        { "id": 1, "name": "O Terrivel", "alias": "A" },
-        { "id": 2, "name": "Amigo da vizinhança", "alias": "B" }
+        { "id": 1, "name": "Procura uma saída lógica", "alias": "C" },
+        { "id": 2, "name": "Luta contra os obstáculos", "alias": "G" },
+        { "id": 3, "name": "Tenta negociar com o que encontrar", "alias": "S" },
+        { "id": 4, "name": "Confia nos seus instintos e amigos", "alias": "L" }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Qual dessas criaturas você adoraria ter como companheira?",
+      "options": [
+        { "id": 1, "name": "Hipogrifo", "alias": "G" },
+        { "id": 2, "name": "Serpente", "alias": "S" },
+        { "id": 3, "name": "Coruja", "alias": "C" },
+        { "id": 4, "name": "Texugo", "alias": "L" }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Qual dessas frases combina mais com você?",
+      "options": [
+        { "id": 1, "name": "Nunca fujo de uma batalha", "alias": "G" },
+        { "id": 2, "name": "O conhecimento é poder", "alias": "C" },
+        { "id": 3, "name": "Farei o que for preciso", "alias": "S" },
+        { "id": 4, "name": "Sempre estarei ao lado de quem amo", "alias": "L" }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Se você tivesse uma varinha poderosa, o que faria com ela?",
+      "options": [
+        { "id": 1, "name": "Protegê-la e usá-la com sabedoria", "alias": "L" },
+        { "id": 2, "name": "Explorar seus limites mágicos", "alias": "C" },
+        { "id": 3, "name": "Derrotar meus inimigos", "alias": "S" },
+        { "id": 4, "name": "Ajudar quem precisa", "alias": "G" }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Você se considera mais...",
+      "options": [
+        { "id": 1, "name": "Corajoso(a)", "alias": "G" },
+        { "id": 2, "name": "Astuto(a)", "alias": "S" },
+        { "id": 3, "name": "Gentil", "alias": "L" },
+        { "id": 4, "name": "Curioso(a)", "alias": "C" }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Com quem você se identifica mais?",
+      "options": [
+        { "id": 1, "name": "Harry Potter", "alias": "G" },
+        { "id": 2, "name": "Draco Malfoy", "alias": "S" },
+        { "id": 3, "name": "Luna Lovegood", "alias": "C" },
+        { "id": 4, "name": "Cedrico Diggory", "alias": "L" }
       ]
     }
   ],
   "results": {
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "G": "⚔️ Você pertence à Grifinória! Corajoso(a) e determinado(a), você enfrenta qualquer desafio de frente.",
+    "S": "🐍 Você pertence à Sonserina! Ambicioso(a) e estrategista, você sabe como alcançar seus objetivos.",
+    "C": "🦅 Você pertence à Corvinal! Inteligente e criativo(a), sua mente é seu maior poder.",
+    "L": "🦡 Você pertence à Lufa-Lufa! Leal e trabalhador(a), você valoriza a amizade e a justiça acima de tudo."
   }
 }

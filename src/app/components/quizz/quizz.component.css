@@ -1,0 +1,99 @@
+/* Container principal */
+.quizz_container {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #8536e538; /* Fundo roxo escuro */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Logo e título */
+.quizz_logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.quizz_logo > h3 {
+  margin-top: 20px;
+  font-size: 26px;
+  color: #d3a625; /* Dourado (Grifinória) */
+  font-family: "Georgia", serif;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* Bloco de perguntas */
+.quizz_questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #d3a625; /* Dourado */
+  border-radius: 8px;
+  background-color: #42275a; /* Roxo médio */
+  width: 100%;
+  font-size: 20px;
+  font-family: "Segoe UI", sans-serif;
+  margin-bottom: 20px;
+  color: #ffffff;
+  padding: 20px;
+}
+
+/* Opções */
+.quizz_options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+/* Botão das opções */
+.btn-option {
+  background-color: #1a1a1a; /* Preto discreto */
+  border-radius: 8px;
+  border: 1px solid #d3a625; /* Dourado */
+  width: 48%;
+  margin: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  padding: 14px 20px;
+  text-align: center;
+  text-shadow: 0px 1px 0px #000000;
+  transition: all 0.3s ease;
+}
+
+.btn-option:hover {
+  background-color: #d3a625; /* Dourado */
+  color: #2e1a47; /* Fundo roxo escuro */
+  font-weight: bold;
+}
+
+.btn-option:active {
+  position: relative;
+  top: 2px;
+}
+
+/* Resultados */
+.quizz_results {
+  width: 100%;
+  height: auto;
+  background-color: #1a1a1a; /* Preto */
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ecb939; /* Amarelo (Lufa-Lufa) */
+  font-size: 22px;
+  text-align: center;
+  font-family: "Georgia", serif;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
