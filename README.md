@@ -1,27 +1,66 @@
-# ProjetoBuzzfeed
+# 🎯 Projeto BuzzFeed Quiz (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
+Bem-vindo ao **Projeto BuzzFeed Quiz**, criado com Angular!  
+Este é um questionário interativo para testar “Qual é a sua casa em Hogwarts?”, entre outros temas divertidos.  
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📦 Tecnologias
 
-## Code scaffolding
+- Angular 14  
+- TypeScript  
+- CSS customizado  
+- JSON para estrutura de perguntas e resultados  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🧠 Como funciona
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+O quiz carrega um JSON com perguntas, opções e alias para cada resposta
 
-## Running unit tests
+Cada resposta soma pontos para uma “casa” (ex: G para Grifinória, S para Sonserina, etc)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Ao final, exibe o resultado com base nos pontos acumulados
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🖌️ Visual e tema
 
-## Further help
+Cores inspiradas em Hogwarts (Grifinória, Sonserina, Corvinal e Lufa-Lufa)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Estilo mágico, com fontes clássicas e efeitos sutis
+
+Botões dinâmicos e interativos
+
+---
+
+## 📂 Estrutura do projeto
+projeto-buzzfeed/
+│
+├── src/
+│   ├── assets/
+│   │   └── questions-hogwarts.json  ← questionário em JSON  
+│   ├── app/
+│   ├── styles.css  
+│   └── ...
+│
+├── angular.json  
+├── package.json  
+└── README.md  
+
+---
+
+## ✨ Próximas melhorias
+
+Adicionar mais temas de quiz
+
+Melhorar responsividade para dispositivos móveis
+
+Animações e transições suaves
+
+Compartilhamento de resultados via redes sociais
+
+---
+---
+
+Este projeto foi originalmente baseado em um quiz estilo BuzzFeed proposto durante um curso da plataforma DIO.me, com adaptações no layout e no conteúdo do questionário para refletir o universo de **Harry Potter** (Hogwarts Quiz). 
